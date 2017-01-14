@@ -1,19 +1,72 @@
-ul
+
+#first-list
 {
-	margin: 0;
-	padding: 0;
-	list-style-type: none;
+	list-style-type:none;
+    margin: 0;
+    padding: 0;
+    position:absolute;
+	top: 2%;
+	right:2%;
+	display:inline-block;
 }
+.first-list-elements
+{
+	display:inline-block;
+	list-style-type:none;
+	margin-right: 10px;
+	font-size: 16px;
+}
+.first-list-elements a
+{
+	color:black;
+}
+#second-list
+{
+	display:inline-block;
+	list-style-type:none;
+    margin: 0;
+    padding: 0;
+	position:absolute;
+	bottom:2%;
+	left:2%;
+
+}
+.second-list-elements
+{
+	list-style-type:none;
+	display:inline-block;
+	margin-right: 10px;
+}
+#andrew-right
+{
+	display:inline-block;
+	margin-left: 780px;
+	float: right;
+}
+#andrew-left
+{
+	display:inline-block;
+}
+a
+{
+	text-decoration: none;
+	color: #666;
+}
+a:hover
+{
+	text-decoration:underline;
+}
+
 img
 {
-	margin-top: 220px;
+	margin-top: 16%;
 	margin-left: 39%;
-	display:block;
 }
 textarea
 {
 	resize:none;
 	display: block;
+	margin-top: 10px;
 	margin-left: 30%;
 	height: 30px;
 	width: 39%
@@ -26,6 +79,7 @@ textarea
 #second_button
 {
 	margin-left: 60px;
+
 }
 .buttons
 {
@@ -45,4 +99,13 @@ textarea
 	border:grey 1px solid;
 	color: black;
 	background-color: white;
+}
+
+#sign-in
+{
+	background-color: blue;
+	height:25px ;
+	width:65px ;
+	border-radius: 4px;
+	color: #fff;
 }
